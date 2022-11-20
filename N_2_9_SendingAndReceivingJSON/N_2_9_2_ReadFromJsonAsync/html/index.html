@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ETO PAHA</title>
+</head>
+<body>
+    <h2>User form</h2>
+    <div id="message"></div>
+    <div>
+        <p>
+            <label for="userName">Name: </label>
+            <input id="userName" type="text" name="userName" />
+        </p>
+        <p>
+            <label for="userAge">Age: </label>
+            <input id="userAge" name="userAge" type="number" />
+        </p>
+        <button id="sendBtn">Send</button>
+    </div>
+    <script type="application/javascript">
+        async function sendUserJSON() {
+            
+            let userJson = JSON.stringify({
+                name: document.getElementById("userName").value,
+                age: document.getElementById("userAge").value
+            });
+            
+            const response = await fetch("/api/user", {
+                method: "POST",
+                headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                body: userJson
+            });
+            
+            const message = await response.json();
+            
+            document.getElementById("message").innerText = message.text;
+        }
+        
+        document.getElementById("sendBtn").addEventListener("click", sendUserJSON);
+    </script>
+</body>
+</html>

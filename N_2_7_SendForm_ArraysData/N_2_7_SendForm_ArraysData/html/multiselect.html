@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send form - Multi select</title>
+</head>
+<body>
+    <h2>User form</h2>
+    <form action="postuser" method="post">
+        <p>
+            Name: <br />
+            <input type="text" name="name" />
+        </p>
+        <p>
+            Age: <br />
+            <input type="text" name="age" />
+        </p>
+        <p>
+            Languages: <br />
+            <select name="languages" multiple>
+                <option value="C#">C#</option>
+                <option value="Javasript">Javascript</option>
+                <option value="Kotlin">Kotlin</option>
+                <option value="Java">Java</option>
+            </select>
+        </p>
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>

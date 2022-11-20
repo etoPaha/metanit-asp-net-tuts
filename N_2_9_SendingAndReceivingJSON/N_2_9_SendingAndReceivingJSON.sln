@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_2_9_SendingAndReceivingJSON", "N_2_9_SendingAndReceivingJSON\N_2_9_SendingAndReceivingJSON.csproj", "{96E39172-2A98-44DE-9E12-97B2C336934D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_2_9_2_ReadFromJsonAsync", "N_2_9_2_ReadFromJsonAsync\N_2_9_2_ReadFromJsonAsync.csproj", "{79114633-173E-4981-8D11-3A7961B34D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E39172-2A98-44DE-9E12-97B2C336934D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E39172-2A98-44DE-9E12-97B2C336934D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E39172-2A98-44DE-9E12-97B2C336934D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E39172-2A98-44DE-9E12-97B2C336934D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79114633-173E-4981-8D11-3A7961B34D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79114633-173E-4981-8D11-3A7961B34D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79114633-173E-4981-8D11-3A7961B34D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79114633-173E-4981-8D11-3A7961B34D49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
