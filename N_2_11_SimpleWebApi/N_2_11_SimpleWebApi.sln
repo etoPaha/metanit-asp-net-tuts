@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_2_11_SimpleWebApi", "N_2_11_SimpleWebApi\N_2_11_SimpleWebApi.csproj", "{168EE3A0-DA81-45B1-A06B-05A91BA218E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168EE3A0-DA81-45B1-A06B-05A91BA218E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168EE3A0-DA81-45B1-A06B-05A91BA218E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168EE3A0-DA81-45B1-A06B-05A91BA218E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168EE3A0-DA81-45B1-A06B-05A91BA218E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
