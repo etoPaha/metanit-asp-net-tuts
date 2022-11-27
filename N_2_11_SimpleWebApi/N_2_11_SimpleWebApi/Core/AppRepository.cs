@@ -1,4 +1,4 @@
-﻿namespace N_2_11_SimpleWebApi;
+﻿namespace N_2_11_SimpleWebApi.Core;
 
 public static class AppRepository
 {
@@ -14,7 +14,7 @@ public static class AppRepository
         Person? user = Users.FirstOrDefault((u) => u.Id == id);
         if (user != null)
         {
-            
+            await response.WriteAsJsonAsync(user);
         }
         else
         {

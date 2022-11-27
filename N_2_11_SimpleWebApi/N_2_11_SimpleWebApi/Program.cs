@@ -1,11 +1,7 @@
 using System.Text.RegularExpressions;
-using N_2_11_SimpleWebApi;
+using N_2_11_SimpleWebApi.Core;
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddSingleton<MockDb>();
-builder.Services.AddSingleton<MockDb>();
-
 var app = builder.Build();
 
 app.Run(async (HttpContext context) =>
@@ -47,7 +43,7 @@ app.Run();
 
 bool IsGuid(string guid)
 {
-    string expressionForGuid = @"^/api/users/\w{8}-\w{4}-\w{4}-\w{12}$";
+    string expressionForGuid = @"^/api/users/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$";
     
     return Regex.IsMatch(guid, expressionForGuid);
 }

@@ -1,4 +1,4 @@
-﻿namespace N_2_11_SimpleWebApi;
+﻿namespace N_2_11_SimpleWebApi.Core;
 
 public class Person
 {
