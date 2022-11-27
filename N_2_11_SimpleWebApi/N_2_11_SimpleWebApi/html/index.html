@@ -79,8 +79,30 @@
             }
         }
         
-        async function createUser() {
+        async function createUser(userName, userAge) {
+            const response = await fetch("api/users", {
+                method: "POST",
+                headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    name: userName,
+                    age: parseInt(userAge, 10)
+                })
+            });
             
+            if (response.ok) {
+                const user = await response.json();
+                
+                document
+                    .querySelector("tbody")
+                    .append(row(user));
+            } else {
+                const error = await response.json();
+                
+                console.log(error.message);
+            }
         }
         
         async function editUser(userId, userName, userAge) {
@@ -111,8 +133,25 @@
             }
         }
         
-        async function deleteUser() {
+        async function deleteUser(id) {
+            const response = await fetch(`/api/users/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Accept": "application/json"
+                }
+            });
             
+            if (response.ok) {
+                const user = await response.json();
+                
+                document
+                    .querySelector(`tr[data-rowid='${user.id}']`)
+                    .remove();
+            } else {
+                const error = await response.json();
+                
+                console.log(error.message);
+            }
         }
         
         function row(user) {
