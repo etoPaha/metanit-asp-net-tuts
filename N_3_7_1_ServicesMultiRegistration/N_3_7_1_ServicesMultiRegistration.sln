@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_3_7_1_ServicesMultiRegistration", "N_3_7_1_ServicesMultiRegistration\N_3_7_1_ServicesMultiRegistration.csproj", "{43BAE7A1-90E5-46AC-9579-ADB7F0A9D866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43BAE7A1-90E5-46AC-9579-ADB7F0A9D866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BAE7A1-90E5-46AC-9579-ADB7F0A9D866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BAE7A1-90E5-46AC-9579-ADB7F0A9D866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BAE7A1-90E5-46AC-9579-ADB7F0A9D866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
