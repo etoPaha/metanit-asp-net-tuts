@@ -1,0 +1,11 @@
+﻿{
+  "person": {
+    "profile": {
+      "name": "Max",
+      "email": "max@gmail.com"
+    }
+  },
+  "company": {
+    "name": "Google"
+  }
+}

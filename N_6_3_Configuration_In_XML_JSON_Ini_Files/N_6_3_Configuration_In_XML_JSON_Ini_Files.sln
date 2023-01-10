@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_6_3_Configuration_In_XML_JSON_Ini_Files", "N_6_3_Configuration_In_XML_JSON_Ini_Files\N_6_3_Configuration_In_XML_JSON_Ini_Files.csproj", "{299C5B67-AD9E-4DF8-ABFC-7C37485DC964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299C5B67-AD9E-4DF8-ABFC-7C37485DC964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299C5B67-AD9E-4DF8-ABFC-7C37485DC964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299C5B67-AD9E-4DF8-ABFC-7C37485DC964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299C5B67-AD9E-4DF8-ABFC-7C37485DC964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
